@@ -11,9 +11,9 @@ function DecimalConverter()
 
     let convertToDecimal = (e) => 
     {  
-        console.log(e.target.value);
         if(e.target.value === '' || e.target.value === null || e.target.value === undefined)
         {
+            setInvalidBinaryError('');
             setShowDecimalValue(false);
         }
         else 
