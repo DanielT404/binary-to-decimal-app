@@ -1,0 +1,53 @@
+.Cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Binary__Card, .Decimal__Card {
+    max-width: 400px;
+    margin-left: 75px;
+    margin-right: 75px;
+    background: #0a0a0a;
+    padding: 50px;
+}
+
+.Binary__Card--headline, .Decimal__Card--headline {
+    padding: 20px;
+    background: #fff;
+}
+
+.Binary__Card--content, .Decimal__Card--content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+@media (max-width: 768px)
+{
+    .Cards {
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .Binary__Card, .Decimal__Card {
+        max-width: 100%;
+        background: #0a0a0a;
+        padding: 25px;
+        margin-bottom: 75px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Binary__Card--headline, .Decimal__Card--headline {
+        padding: 10px;
+        background: #fff;
+    }
+    
+    .Binary__Card--content, .Decimal__Card--content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+}

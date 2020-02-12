@@ -1,0 +1,66 @@
+.DecimalConverter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+.DecimalConverter__error {
+    margin-bottom: 25px;
+}
+
+.DecimalConverter__error--message {
+    background: #691313;
+    padding: 25px;
+}
+
+.DecimalConverter__input-group {
+    margin-top: 50px;
+}
+
+.DecimalConverter__binaryLabel {
+    color: #fff;
+}
+
+.DecimalConverter__decimalLabel {
+    color: #040404;
+    background: #fff;
+}
+
+.DecimalConverter__binaryInput {
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.DecimalConverter__decimalValue {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+@media (max-width: 768px)
+{
+    .DecimalConverter {
+        display: block;
+        font-size: 1.4rem;
+        margin-top: 0;
+    }
+
+    .DecimalConverter__error {
+        margin-left: 25px;
+    }
+
+    .DecimalConverter__error--message {
+        padding: 0;
+    }
+
+    .DecimalConverter__input-group {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

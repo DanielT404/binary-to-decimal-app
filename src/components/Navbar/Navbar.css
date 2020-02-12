@@ -1,0 +1,25 @@
+.Nav {
+    background-color: #fff;
+    padding: 25px 75px 25px 75px;
+}
+
+.Nav__header, .Nav__header-sub {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.Nav__header {
+    color: #343434;
+}
+
+.Nav__header-sub {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .Nav {
+        padding: 25px;
+    }
+}
